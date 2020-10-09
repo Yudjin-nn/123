@@ -1,0 +1,17 @@
+2020-10-09 19:03:59,848 p=16299 u=root n=ansible | test3 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+2020-10-09 19:04:01,556 p=16299 u=root n=ansible | test1 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.88.11 port 22: No route to host", 
+    "unreachable": true
+}
+2020-10-09 19:04:01,570 p=16299 u=root n=ansible | test2 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.88.12 port 22: No route to host", 
+    "unreachable": true
+}

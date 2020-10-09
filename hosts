@@ -1,0 +1,9 @@
+[test]
+test3 ansible_host=192.168.88.10
+test1 ansible_host=192.168.88.11
+test2 ansible_host=192.168.88.12
+
+[test:vars]
+ansible_port=22
+ansible_user=ansible
+ansible_ssh_private_key_file=/root/.ssh/id_rsa
